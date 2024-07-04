@@ -2,7 +2,7 @@ package com.askdj.dsa;
 
 public class TrailingZeroes {
     public static void main(String[] args) {
-        System.out.println(zeroes(25));
+        System.out.println(zeroes(24));
     }
 
     private static int zeroes(int n) {
