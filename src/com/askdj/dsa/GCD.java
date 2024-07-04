@@ -30,7 +30,7 @@ public class GCD {
 
     }
 
-    private static int efficientEclids(int n, int m) {
+    static int efficientEclids(int n, int m) {
         int steps = 0;
         while(n!=0 && m!=0) {
             if (m > n) m = m % n;
